@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: paytaxi-api
+    runtime: node
+    region: frankfurt
+    plan: free
+    rootDir: backend
+    buildCommand: pnpm install && pnpm db:push:supabase && pnpm build
+    startCommand: node dist/index.js
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://postgres.sklddyglnuigdnqhegck:PayTaxi_2026_SecureDb%21%2389@aws-0-eu-west-1.pooler.supabase.com:5432/postgres?schema=public
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "5000"
+      - key: FRONTEND_URL
+        value: https://paytaxi.vercel.app
+
+  - type: web
+    name: paytaxi-web
+    runtime: node
+    region: frankfurt
+    plan: free
+    rootDir: frontend
+    buildCommand: pnpm install && pnpm build
+    startCommand: pnpm start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://paytaxi-api.onrender.com
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"

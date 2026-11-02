@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "PayTaxi",
+    "slug": "paytaxi",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "paytaxi",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "et.paytaxi.app",
+      "associatedDomains": ["applinks:paytaxi.et"],
+      "infoPlist": {
+        "NSCameraUsageDescription": "PayTaxi needs camera access to scan taxi QR codes.",
+        "NSPhotoLibraryUsageDescription": "PayTaxi may save QR code images to your library."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1a6b3c",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "et.paytaxi.app",
+      "permissions": ["android.permission.CAMERA"],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "paytaxi.et",
+              "pathPrefix": "/t/"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow PayTaxi to access your camera to scan QR codes."
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}

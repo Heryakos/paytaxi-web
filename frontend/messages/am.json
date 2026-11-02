@@ -1,0 +1,115 @@
+{
+  "auth": {
+    "title_passenger": "የተሳፋሪ መዳረሻ",
+    "title_driver": "የሹፌር መዳረሻ",
+    "subtitle": "በስልክ ቁጥርዎ ይግቡ። OTP ኮዱ ወደ ሰርቨር ኮንሶል ይላካል (dev mode)።",
+    "phone_label": "ስልክ ቁጥር",
+    "phone_placeholder": "+251911234567",
+    "send_otp": "OTP ላክ",
+    "sending": "እየተላከ…",
+    "otp_label": "6-ሃሳቤ ኮድ",
+    "verify": "አረጋግጥ እና ቀጥል",
+    "verifying": "እያረጋገጠ…",
+    "dev_otp": "Dev OTP:"
+  },
+  "registration": {
+    "label": "የሹፌር ምዝገባ",
+    "title": "ፔይታክሲን ይቀላቀሉ",
+    "subtitle": "መገለጫዎ PENDING ሆኖ ይፈጠራል። አስተዳዳሪ ካጸደቀ በኋላ QR ይሰጣታል።",
+    "submit": "ምዝገባ አስገባ",
+    "submitting": "እየላከ…",
+    "mock_id": "ቅጂ መታወቂያ ስፋ",
+    "mock_license": "ቅጂ ፍቃድ ስፋ"
+  },
+  "payment": {
+    "title": "የታክሲ ክፍያ ይፈፅሙ",
+    "subtitle": "የጉዞዎን ደረጃ ይምረጡ ወይም የተለየ መጠን ያስገቡ። ሰርቨሩ ታክሲውን እና ሹፌሩን ያረጋግጣል።",
+    "taxi_id_label": "የታክሲ መለያ",
+    "guest_notice": "መግባት አያስፈልግም — ለተሳፋሪዎች ፈጣን ክፍያ",
+    "presets_tab": "መደበኛ ደረጃዎች",
+    "custom_fare_tab": "የተለየ መጠን",
+    "custom_placeholder": "ለምሳሌ 12 ብር",
+    "custom_min_max": "ዝቅተኛ 5 ብር · ከፍተኛ 500 ብር",
+    "seats_label": "የተሳፋሪዎች / የወንበሮች ብዛት",
+    "phone_optional_label": "ስልክ ቁጥር (አማራጭ፣ ለደረሰኝ መልእክት)",
+    "phone_optional_placeholder": "0911234567",
+    "total_due": "ጠቅላላ ክፍያ:",
+    "continue_btn": "ወደ ክፍያ ቀጥል",
+    "pay_now": "{amount} ብር ክፈል",
+    "pending_btn": "ክፍያ እየተሰራ ነው…",
+    "simulate_btn": "⚡ ክፍያውን አሁን አስመስል (የሙከራ ሁነታ)",
+    "simulating": "እያረጋገጠ ነው…",
+    "signed_in_as": "የገቡት በ"
+  },
+  "receipt": {
+    "title": "የተረጋገጠ የጉዞ ደረሰኝ",
+    "verified_banner": "ክፍያው ተረጋግጧል",
+    "weyala_instruction": "ይህንን ቀጥታ ማረጋገጫ ለረዳቱ / ለወያላው ያሳዩ",
+    "anti_fraud_notice": "ቀጥታ የሚቆጥረው ሰዓት እና የፀረ-ማጭበርበር ኮድ የቅጂ ስክሪንሾት መጠቀምን ይከላከላል",
+    "plate_label": "የሰሌዳ ቁጥር",
+    "driver_label": "ሹፌር",
+    "taxi_id_label": "የታክሲ መለያ",
+    "amount_paid": "የተከፈለው መጠን",
+    "seats_paid": "ወንበሮች",
+    "time_label": "ሰዓት",
+    "live_timer": "ከ {seconds} ሰከንድ በፊት ተከፍሏል · ንቁ ጉዞ",
+    "security_hash": "የደህንነት ኮድ",
+    "done_btn": "ተጠናቋል / ውጣ",
+    "new_payment": "አዲስ ክፍያ"
+  },
+  "dashboard": {
+    "label": "የሹፌር ፖርታል",
+    "welcome": "እንኳን ደህና መጡ፣ {name}",
+    "subtitle": "ከሰርቨሩ የሚጫነው የርሶ ሹፌር መገለጫ እና ግብይቶች ብቻ ናቸው።",
+    "earnings": "ተሳካ ደሞዝ",
+    "payments": "ተሳካ ክፍያዎች",
+    "soundbox_active": "🔊 ሳውንድቦክስ፡ የድምፅ ማሳወቂያ በርቷል",
+    "soundbox_muted": "🔈 ሳውንድቦክስ፡ ድምፅ ጠፍቷል (ለማብራት ይጫኑ)",
+    "payment_alert": "⚡ አሁን +{amount} ብር ክፍያ ደርሶዎታል!",
+    "no_qr": "QR እስካሁን የለም",
+    "download_qr": "QR PNG አውርድ",
+    "report_lost": "ጠፋ/ተሰረቀ QR ሪፖርት",
+    "replacing": "እየተካ…",
+    "refresh": "ዳሽቦርድ አድስ",
+    "recent_tx": "የቅርብ ጊዜ ግብይቶች",
+    "no_tx": "እስካሁን ምንም ግብይቶች የሉም።",
+    "sign_out": "ውጣ",
+    "log_out": "ወጣ"
+  },
+  "admin": {
+    "title": "የአስተዳዳሪ ሹፌሮች ማረጋገጫ",
+    "subtitle": "የሹፌሮችን መረጃ እና ሰነዶች (መታወቂያ እና ፍቃድ) በማየት QR ኮድ ይስጡ።",
+    "all_tab": "ሁሉም ማመልከቻዎች",
+    "pending_tab": "በመጠባበቅ ላይ",
+    "approved_tab": "የፀደቁ",
+    "rejected_tab": "ውድቅ የተደረጉ",
+    "approve_btn": "አጽድቅ እና QR ስጥ",
+    "reject_btn": "ማመልከቻውን ውድቅ አድርግ",
+    "approving": "እያጸደቀ…",
+    "rejecting": "ውድቅ እያደረገ…",
+    "no_drivers": "በዚህ ክፍል ምንም የሹፌር ማመልከቻ የለም።",
+    "id_document": "ብሔራዊ መታወቂያ (ቀበሌ / ፋይዳ)",
+    "license_document": "የመንጃ ፍቃድ",
+    "taxi_assigned": "የተሰጠ የታክሲ መለያ",
+    "plate_number": "የሰሌዳ ቁጥር"
+  },
+
+  "home": {
+    "tagline": "የተረጋገጡ ጉዞዎች። ሰርቨር-ያረጋገጡ ክፍያዎች።",
+    "heading": "ያለ ሰቆቃ ታክሲ ክፍያዎን ይፈፅሙ።",
+    "description": "ፔይታክሲ እያንዳንዱ ክፍያ ከተፈቀደ ሹፌር እና ቅርብ QR ጋር ያስተሳስረዋል። ሹፌሮች ለደሞዛቸው ብቻ ዳሽቦርድ አላቸው።",
+    "pay_btn": "ታክሲ ክፈል",
+    "driver_btn": "የሹፌር ምዝገባ",
+    "passenger_login": "የተሳፋሪ ግቤት",
+    "driver_portal": "የሹፌር ፖርታል"
+  },
+  "nav": {
+    "brand_name": "PAYTAXI",
+    "brand_tagline": "ደህንነቱ የተጠበቀ ታክሲ ክፍያ"
+  },
+  "taxi": {
+    "verified": "የተረጋገጠ ታክሲ",
+    "pay": "ይህን ታክሲ ክፈል",
+    "pay_signin": "ግባ እና ክፈል"
+  }
+}

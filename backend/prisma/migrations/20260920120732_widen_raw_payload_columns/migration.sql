@@ -1,0 +1,22 @@
+BEGIN TRY
+
+BEGIN TRAN;
+
+-- AlterTable
+ALTER TABLE [dbo].[transaction] ALTER COLUMN [addispayRawPayload] NVARCHAR(4000) NULL;
+
+-- AlterTable
+ALTER TABLE [dbo].[webhook_event] ALTER COLUMN [rawPayload] NVARCHAR(4000) NULL;
+
+COMMIT TRAN;
+
+END TRY
+BEGIN CATCH
+
+IF @@TRANCOUNT > 0
+BEGIN
+    ROLLBACK TRAN;
+END;
+THROW
+
+END CATCH

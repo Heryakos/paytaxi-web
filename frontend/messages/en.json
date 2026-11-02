@@ -1,0 +1,115 @@
+{
+  "auth": {
+    "title_passenger": "Passenger access",
+    "title_driver": "Driver access",
+    "subtitle": "Sign in with your phone. OTP is logged to the backend console in dev mode.",
+    "phone_label": "Phone number",
+    "phone_placeholder": "+251911234567",
+    "send_otp": "Send OTP",
+    "sending": "Sending…",
+    "otp_label": "6-digit code",
+    "verify": "Verify and continue",
+    "verifying": "Verifying…",
+    "dev_otp": "Dev OTP:"
+  },
+  "registration": {
+    "label": "Driver registration",
+    "title": "Join PayTaxi",
+    "subtitle": "Your profile is created as PENDING. An admin must approve it before a QR is issued.",
+    "submit": "Submit registration",
+    "submitting": "Submitting…",
+    "mock_id": "Mock ID upload",
+    "mock_license": "Mock license upload"
+  },
+  "payment": {
+    "title": "Pay a verified taxi",
+    "subtitle": "Select your minibus stage or enter fare. The server verifies the taxi and driver.",
+    "taxi_id_label": "Taxi ID",
+    "guest_notice": "No login required — instant minibus checkout",
+    "presets_tab": "Standard stages",
+    "custom_fare_tab": "Custom amount",
+    "custom_placeholder": "e.g. 12 ETB",
+    "custom_min_max": "Min 5 ETB · Max 500 ETB",
+    "seats_label": "Passengers / Seats",
+    "phone_optional_label": "Mobile number (optional, for SMS receipt)",
+    "phone_optional_placeholder": "0911234567",
+    "total_due": "Total Fare:",
+    "continue_btn": "Proceed to Pay",
+    "pay_now": "Pay {amount} ETB",
+    "pending_btn": "Processing payment…",
+    "simulate_btn": "⚡ Simulate Success (Test Mode)",
+    "simulating": "Simulating…",
+    "signed_in_as": "Signed in as"
+  },
+  "receipt": {
+    "title": "Verified Trip Receipt",
+    "verified_banner": "PAYMENT VERIFIED",
+    "weyala_instruction": "Show this dynamic screen to the Weyala / Conductor",
+    "anti_fraud_notice": "Pulsing live watermark & timestamp prevent screenshot reuse",
+    "plate_label": "Plate Number",
+    "driver_label": "Driver",
+    "taxi_id_label": "Taxi ID",
+    "amount_paid": "Amount Paid",
+    "seats_paid": "Seats",
+    "time_label": "Time",
+    "live_timer": "Paid {seconds}s ago · Active ride",
+    "security_hash": "Security Hash",
+    "done_btn": "Done / Exit",
+    "new_payment": "New Payment"
+  },
+  "dashboard": {
+    "label": "Scoped driver portal",
+    "welcome": "Welcome, {name}",
+    "subtitle": "Only your driver profile and transactions are loaded from the server.",
+    "earnings": "Successful earnings",
+    "payments": "Successful payments",
+    "soundbox_active": "🔊 Soundbox: Audio chime active",
+    "soundbox_muted": "🔈 Soundbox: Muted (click to enable)",
+    "payment_alert": "⚡ Received +{amount} ETB just now!",
+    "no_qr": "No QR yet",
+    "download_qr": "Download QR PNG",
+    "report_lost": "Report lost/stolen QR",
+    "replacing": "Replacing…",
+    "refresh": "Refresh dashboard",
+    "recent_tx": "Recent transactions",
+    "no_tx": "No transactions yet.",
+    "sign_out": "Sign out",
+    "log_out": "Log out"
+  },
+  "admin": {
+    "title": "Admin Driver Verification",
+    "subtitle": "Review driver documents (National ID & License) and issue active QR codes.",
+    "all_tab": "All Applications",
+    "pending_tab": "Pending Review",
+    "approved_tab": "Approved",
+    "rejected_tab": "Rejected",
+    "approve_btn": "Approve & Issue QR",
+    "reject_btn": "Reject Application",
+    "approving": "Approving…",
+    "rejecting": "Rejecting…",
+    "no_drivers": "No driver applications found in this view.",
+    "id_document": "National ID (Kebele / Fayda)",
+    "license_document": "Driver's License",
+    "taxi_assigned": "Active Taxi ID",
+    "plate_number": "Plate Number"
+  },
+
+  "home": {
+    "tagline": "Verified rides. Server-checked payments.",
+    "heading": "Pay your taxi fare with confidence.",
+    "description": "PayTaxi links every payment to an approved driver and active QR. Drivers get a private dashboard for their own earnings.",
+    "pay_btn": "Pay a taxi",
+    "driver_btn": "Driver registration",
+    "passenger_login": "Passenger login",
+    "driver_portal": "Driver portal"
+  },
+  "nav": {
+    "brand_name": "PAYTAXI",
+    "brand_tagline": "Safer taxi payments in Ethiopia"
+  },
+  "taxi": {
+    "verified": "Verified taxi",
+    "pay": "Pay this taxi",
+    "pay_signin": "Sign in & pay"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "paytaxi-root",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core",
+      "unrs-resolver"
+    ],
+    "overrides": {
+      "hono": "4.12.25",
+      "jest-environment-node": "30.4.1"
+    }
+  }
+}
